@@ -11,6 +11,6 @@ async def on_ready():
 
 @bot.slash_command(guild_ids=[your, guild_ids, here])
 async def hello(ctx):
-    await ctx.respond("Hello!")
+    await ctx.respond("Hello! This is a test.")
 
 bot.run(token)
